@@ -1,10 +1,17 @@
 <template>
-  <div>文章管理</div>
+  <div>
+    <my-bread>内容管理</my-bread>
+  </div>
 </template>
 
 <script>
-export default {
+// 引入面包屑
+import MyBread from '@/components/MyBread.vue'
 
+export default {
+components:{
+  MyBread
+}
 }
 </script>
 

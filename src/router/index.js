@@ -29,7 +29,7 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  linkExactActiveClass: 'active'
+  linkExactActiveClass: 'is-active'
 })
 
 export default router

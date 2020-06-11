@@ -1,10 +1,16 @@
 <template>
-  <div>个人设置</div>
+  <div>
+     <my-bread>个人设置</my-bread>
+    </div>
 </template>
 
 <script>
-export default {
+import MyBread from '@/components/MyBread.vue'
 
+export default {
+components:{
+  MyBread
+}
 }
 </script>
 

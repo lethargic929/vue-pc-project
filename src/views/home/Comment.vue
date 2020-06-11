@@ -1,10 +1,16 @@
 <template>
-  <div>评论管理</div>
+  <div>
+    <my-bread>评论管理</my-bread>
+    </div>
 </template>
 
 <script>
-export default {
+import MyBread from '@/components/MyBread.vue'
 
+export default {
+components:{
+  MyBread
+}
 }
 </script>
 
